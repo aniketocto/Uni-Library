@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <BookOverview {...BookSample[0]} />
-      <BookList title='Latest Book' book={BookSample} containerClass="mt-28"/>
+      <BookList title='Latest Book' books={BookSample} containerClass="mt-28"/>
     </>
   );
 };

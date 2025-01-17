@@ -23,7 +23,7 @@ const BookOverview = ({
             By <span className="font-semibold text-light-200">{author}</span>
           </p>
           <p>
-            Category{" "}
+            Category
             <span className="font-semibold text-light-200">{genre}</span>
           </p>
 
